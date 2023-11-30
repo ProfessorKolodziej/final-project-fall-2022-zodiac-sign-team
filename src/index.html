@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Update your description here" />
-	<title>A Tour of Zodiac Sign</title>
-	<!--
-		This is where you should link your CSS file.
-	-->
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../index.css" />
+    <link rel="stylesheet" href="./Start_Screen_1.css" />
+  </head>
+  <body>
+    <div class="flex-row page">
+      <div class="flex-col items-center shrink-0 self-center">
+        <span class="font">A Tour of</span>
+        <span class="font mt-61">Zodiac Sign</span>
+      </div>
+      <div class="flex-col justify-start items-center shrink-0 self-start text-wrapper ml-81">
+        <span class="text">Let’s Start</span>
+      </div>
+    </div>
 
 <body>
-	<a class="start-button" href="Zodiac Book Page">Let's Start</a>
-
 	<h1>Zodiac Book</h1>
 	<img class="Aries image" src="https://s3-alpha-sig.figma.com/img/7ff2/b7b6/f150a03260dd60aaaebac564d4516042?Expires=1700438400&Signature=K5l9d6e2soC-Z9rK37PpVyKgf~cNqXk0GTABGiluKLcO0CuuSlhEFpEiCQ2sXNFGD227t7aGjU-SQ968JzXNSXWEpDhagc2-Ccyfw2bLCyuLXUdj2cfXdI~avjMynJkI~omlLinZvCp6IdbOwIlsGEGSaFF2KKjUmoovzaMsZf5yGGcvACtFZ8mCh03vJWHpo5j7l7MZiilRNEoC~hLYCtX5veA2hjl5XYrXlyUb3A7w409TnVWo6uEkNFFcaitl3FG3mD5jMZnsWStb4QCgp4LSjS2lOHyN2fLmNsMsXECuzq88y-D3~0AjMWStEkHNepp1Cu2r9zQBRSfDstb54w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="3.21-4.19"/>
 	<h2 class="Aries text">Aries</h2>
@@ -42,17 +46,24 @@
 	<h14 class="Scorpius text">Scorpius</h14>
 	<a class="quiz-button" href="Quiz page">Quiz</a>
 
-	<h15 class="Aries">Aries</h15> 
-	<img class="Aries logo" scr="https://s3-alpha-sig.figma.com/img/8ae4/0e29/5e5e62a6f925548c42db779a3b172286?Expires=1700438400&Signature=WPX09bKKhuA-4fAS~8dF3oXrZz2iNs6aM4JWbBoh9KJeu9GKoEQ-uviEiid9eXbGZx5F3SXL8CYw5t9pjB~fgXpf0BlVbvE7jGFUiXy2eVsACDtaXNFfQb447Wu5UWIPQeNfkTmqBw63nyUfC2ZXil99CPdaLNlO44BSs7eqG5BL9s~bQzNbtPh~AFBJ97EvwDNAme5~RrL6utAle4DMkJekUjV725iGnE11YIzMZpWXteSXw3f4b~8cOS-OdZv9pbKl6JPlq3ROTTqMoQ6XNtsTkPUVFHw-dp08ynPT5IiUTffCOwQzZXEK17bvxsSDmiecMtclXAww2tUtCbIBjg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" />
-	<ul>
-		<li>Symbol: Ram</li>
-		<li>Element: Fire</li>
-		<li>Characteristics: Energetic, assertive, pioneering</li>
-		<li>Personality Traits: Aries individuals are known for their confidence, enthusiasm, and determination. They love challenges and are natural leaders. However, they can be impulsive and short-tempered.</li>
-	</ul>
-	<a class="back-button" herf="Zodiac Book Page">Back</a>
+	<div class="flex-col justify-start relative page">
+		<div class="section"></div>
+		<span class="text pos">Sagittarius</span>
+		<img class="image pos_3" src="../../images/ff9f51f6f78663ea9fe3f665c08e1e96.png">
+		<span class="font pos_2">Symbol: Archer</span>
+		<span class="font pos_4">Element: Fire</span>
+		<span class="font text_2 pos_5">
+		  Characteristics: Adventurous, optimistic, philosophical
+		  <br>
+		</span>
+		<span class="font text_3 pos_6">
+		  Personality Traits: Sagittarians are curious and love to explore. They have a great sense of humor and love
+		  freedom, but they can sometimes be impatient.
+		</span>
+		<div class="flex-col justify-start items-center text-wrapper pos_7"><span class="text_4">Back</span></div>
+	</div>
 
-	<title>Zodiac Signs Quiz</title>
+	  <title>Zodiac Signs Quiz</title>
 	<div class="quiz-container">
 		<div class="question">
 		  <p>1. Which zodiac sign is represented by a Ram?</p >
@@ -83,9 +94,7 @@
 		<div class="result-text">You are a qualified zodiac explorer</div>
 	  </div>
 	  
-	<!--
-		This is where you should link your JS file.
-	-->
+	  <script type="text/javascript" src="./Start_Screen_1.js"></script>
 </body>
 
 </html>
