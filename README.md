@@ -1,16 +1,16 @@
-# Final Project (Replace with your project name)
+# Final Project - Zodiac Sign - Yinuo Zhu, Xinyi Feng
 
 ## Description
 
-Please add a brief description of your final project here.
+This project’s objective is to create a responsive, user-friendly, and visually engaging website devoted to the twelve constellations of the zodiac. The website will serve as an informative portal for people who are passionate about zodiac signs and curious to investigate the history, significance, and visuals associated with each constellation. We’ll start by introducing 12 zodiac signs’ characteristics and personality traits for each one and then turn to the QUIZ section. People can consolidate content by answering the questions. The overall purpose of the website is to educate and inform our target audiences. 
 
 ## Project Documentation
 
 - [CM523 Final Project Guidelines &amp; Schedule](https://docs.google.com/document/d/1gvG9_1XYfp5-BVUgCDL9JDaZ3Acm6hHP7lDF3MqXPzY/edit#heading=h.61wsleacz62i)
-- **Final code demo:** [Update this to show your Github Pages URL](https://professorkolodziej.github.io/cm523-final-project/). The URL will be `https://professorkolodziej.github.io/YOUR-REPOSITORY-NAME/`.
+- **Final code demo:** [Update this to show your Github Pages URL](https://professorkolodziej.github.io/cm523-final-project/). The URL will be `https://professorkolodziej.github.io/final-project-fall-2022-zodiac-sign-team/`.
 - Add any links to wireframes, mockups, your presentation, etc. here in a list so it is easy for you to find later.
 
-## How to Use This Repository
+## How to Use This Repositorys
 
 Make sure you've [set up your development environment](https://docs.google.com/document/d/14usTx6c1L1MwSjRvwtk4spz40EDgHV50_53kKAiHzcM/edit?usp=sharing). Then, use the following commands to get up and running!
 
